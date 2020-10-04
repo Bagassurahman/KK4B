@@ -1,0 +1,124 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Navbar */
+.navbar{
+    background-color: black;
+    border-bottom: solid rgba(255, 255, 255, 0.3) 1px;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: small;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: gray;
+}
+.navbar-nav .nav-item .nav-link.active{
+    font-weight: 900;
+    color: white;
+}
+/* Akhir Navbar */
+/* Carousel */
+.carousel{
+    position: relative;
+    background-color: black;
+    height: 400px;
+    color: white;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Akhir Carousel */
+/* car */
+.car .container h2{
+    font-size: 17px;
+    line-height: 32px;
+    color: #171717;
+}
+.car .container p{
+    font-size: 14px;
+    line-height: 32px;
+    color: #B7B7B7;
+}
+/* akhir car */
+/* SERVICE */
+.service h4 {
+    font-size: 20px;
+    font-weight: 137px;
+}
+
+.service .content .title{
+    font-size: 28px;
+}
+
+.service .dropdown .title {
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFF500;
+    text-decoration: none;
+}
+
+.service .dropdown .title:hover{
+    color: rgba(252, 247, 104, 0.884);
+}
+
+.service .dropdown .dropdown-menu{
+    background-color: #FFF500;
+}
+
+.service p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.service .card .opt{
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.service .card {
+    background: #0A0F1D;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+.service .card-body {
+    padding: 17px 32px 22px 32px;
+}
+
+
+.service .card:hover {
+    background: #22252c;
+    margin-top: -10px;
+}
+
+@media (max-width:576px){
+    .service .card .opt{
+        margin-left: 100px;
+    }
+}
+/* Footer */
+footer {
+    background:#0A0F1D;
+    border-radius: 200px 0px 0px 0px;
+}
+
+footer .container-fluid {
+    color: white;
+}
+footer .container-fluid .column .component a{
+    color: white;
+    text-decoration: none;
+}
